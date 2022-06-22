@@ -313,7 +313,7 @@ Yemin kefaretinizi Türkiye Diyanet Vakfı bünyesinde bulunan aşevleriyle ihti
         <a href="https://twitter.com/" target="_blank"><div class="social twi"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></div></a>
         <a href="https://www.linkedin.com/in/vuralbayrakl%C4%B1" target="_blank"><div class="social in"><i class="fa fa-linkedin  fa-2x"></i><span>LinkedIn</span></div></a>
         <a href="https://pinterest.com/" target="_blank"><div class="social pin"><i class="fa fa-pinterest-p fa-2x"></i><span>Pinterest</span></div></a>
-        <a href="https://github.com/VuralBayrakli" ><div class="social git"><i class="fa fa-github fa-2x"></i><span>Github</span></div></a>
+        <a href="https://github.com/VuralBayrakli/web-sitesi" ><div class="social git"><i class="fa fa-github fa-2x"></i><span>Github</span></div></a>
     </div>
  
 </body>
