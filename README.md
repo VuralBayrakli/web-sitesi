@@ -5,5 +5,5 @@ Burada dikkat edilmesi gereken nokta telefon numarası 10 haneli olmalı; şifre
 Sisteme giriş yapıldığında anasayfada kullanıcı bilgilerinin bulunduğu sayfaya yönlendiren ve kullanıcının isminin yazıldığı bir buton bulunur. Bu butonun yanında çıkış yapacak olan 'logout' butonu bulunur. 
 'Bağışlarım' butonu ile bağışlarınızı görebilirsiniz. 'Hakkımızda' butonuna tıklayarak Online Bağış ekibi olarak hakkımızda bilgi sabibi olabilirsiniz. Kullanıcı isminin yazılı olduğu butona tıklanıldığında kullanıcı bilgilerine erişilebilir. 'Değiştir' butonu ile kullanıcı istediği bilgiyi değiştirebilir. 
 Ayrıca 'Hesabı sil' butonu ile de hesabı silebilir. 
-Kullanıcının tekrar bağışta bulunabilmesi için sisteme giriş yapması gerekmektedir. Anasayfan ve hakkımızda sayfalarının en altında linkler bulunmaktadır.
+Kullanıcının tekrar bağışta bulunabilmesi için sisteme giriş yapması gerekmektedir. Anasayfa ve hakkımızda sayfalarının en altında linkler bulunmaktadır.
 Web sitemiz fotoğraflarla ve zengin metin içerikleriyle oluşturulmuştur.
