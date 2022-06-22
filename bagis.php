@@ -16,6 +16,25 @@ if(isset($_SESSION['user_id'])) {
 	echo " #anybutton3{ visibility : visible; left:80%; position: absolute;} ";
 	echo "</style>";
 	
+	if($_SERVER['REQUEST_METHOD'] == "POST") {
+		
+		$user_phoneN = $_POST['user_phoneN'];
+		$bagis = $_POST['bagis'];
+		$bagisTutari = $_POST['bagisTutari'];
+		if($user_phoneN != $gelen['user_phoneN']) {
+			echo '<label id=lab> Telefon Numarası Eşleşmiyor </label>';
+			
+		}
+		
+		else {
+		$query = "insert into bagis (telNo,bagis,bagisTutari) values ('$user_phoneN', '$bagis', '$bagisTutari')";
+		mysqli_query($con, $query);
+		header("Location:index.php");
+		die;
+		}
+	}
+
+	
 	
 }
 else{
@@ -36,23 +55,6 @@ $sql = "SELECT * FROM users where id ='$aa'";
 $cevap = mysqli_query($con,$sql);
 $gelen=mysqli_fetch_array($cevap);
 
-if($_SERVER['REQUEST_METHOD'] == "POST") {
-		
-		$user_phoneN = $_POST['user_phoneN'];
-		$bagis = $_POST['bagis'];
-		$bagisTutari = $_POST['bagisTutari'];
-		if($user_phoneN != $gelen['user_phoneN']) {
-			echo '<label id=lab> Telefon Numarası Eşleşmiyor </label>';
-			
-		}
-		
-		else {
-		$query = "insert into bagis (telNo,bagis,bagisTutari) values ('$user_phoneN', '$bagis', '$bagisTutari')";
-		mysqli_query($con, $query);
-		header("Location:index.php");
-		die;
-		}
-	}
 
 ?>
 
